@@ -2,7 +2,7 @@
 body {
     /*background-color: #303030;
 	/*animation: backgroundLoop 6s infinite alternate; /* Background color animation */
-	background-image: url('Images/background.png'); /* Replace 'background-image.jpg' with your image file path */
+    background-image: url('Images/background.png'); /* Replace 'background-image.jpg' with your image file path */
     background-size: cover; /* Cover the entire container */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center center; /* Center the image horizontally and vertically */
@@ -33,7 +33,7 @@ body {
 }
 
 .container {
-	position: relative;
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -50,14 +50,14 @@ body {
 
 .title {
     font-family: 'Bebas Neue', sans-serif;
-	color: white;
-	text-shadow: 0px 5px #000000;
+    color: white;
+    text-shadow: 0px 5px #000000;
 	/*text-shadow:
         -2px -2px 0 grey,
          2px -2px 0 grey,
         -2px  2px 0 grey,
          2px  2px 0 grey;*/
-	letter-spacing: 3px;
+    letter-spacing: 3px;
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 30px;
@@ -149,12 +149,14 @@ body {
     bottom: 0;
     left: 0;
     width: 100%;
+    border-top: 5px solid #ff902d;
+    border-bottom: 5px solid #ff902d;
 }
 
 .social-media-links {
     list-style: none;
     padding: 0;
-	font-family: 'Comfortaa', cursive;
+    font-family: 'Comfortaa', cursive;
     display: flex; /* Use flexbox for centering */
     justify-content: center; /* Center items horizontally */
     align-items: center; /* Center items vertically */
